@@ -1,0 +1,54 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about__projects-section-link {
+  color: #03e9f4;
+}
+
+.about-skills {
+  margin-top: 4rem;
+}
+
+.about-skills__title {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__skill {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.25rem;
+  background-color: rgb(19, 19, 19);
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+}
+
+.skills__skill:hover {
+  transform: scale(1.05);
+  transition: all 0.15s ease-out;
+}
+
+.skills__link {
+  background-color: white;
+}
+
+.skills__link:hover {
+  background-color: rgb(19, 19, 19);
+}

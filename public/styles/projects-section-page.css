@@ -1,0 +1,52 @@
+.project {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.project__content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  align-items: flex-start;
+}
+
+.project__content-title {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 15px #03e9f4;
+}
+
+.project__content-description {
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.project__btn {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /* background-color: rgb(19, 19, 19); */
+  /* color: white; */
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px #03e9f4;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); */
+  transition: transform 0.3s;
+}
+
+.project__btn:hover {
+  transform: translateY(-3px);
+}

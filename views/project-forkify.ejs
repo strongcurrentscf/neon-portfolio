@@ -1,0 +1,79 @@
+<%- include("includes/head.ejs", { title: "Christian Francis" }) %>
+    <script src="/project.js" defer></script>
+
+    </head>
+
+    <body>
+        <header id="header">
+            <nav id="nav">
+                <!-- <img/> for logo  -->
+                <ul class="links__container">
+                    <li><a class="nav__link" href="/">home</a></li>
+                    <li><a class="nav__link" href="/#about">about</a></li>
+                    <li><a class="nav__link" href="/#projects">projects</a></li>
+                    <li><a class="nav__link" href="/#contact">contact</a></li>
+                </ul>
+            </nav>
+            <!--  -->
+            <div id="neon-name">
+                <div>
+                    <h1 id="project-neon-name-text">forkify</h1>
+                    <p id="neon-about-text">Forkify is a recipe application with custom recipe uploads.</p>
+                </div>
+                <svg id="arrows">
+                    <path id="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path id="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path id="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>
+            </div>
+            <!--  -->
+        </header>
+        <main>
+
+            <section class="section" id="about-project">
+                <h2>forkify recipe app</h2>
+                <div class="section-content">
+                    <div class="about">
+                        <figure>
+                            <div id="image">
+                                <img src="/jpg/forkify-screenshot.png" alt="A photo of Christian Francis" />
+                            </div>
+                            <figcaption id="image-caption">
+                                Forkify Recipe Application
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>
+                                Forkify is a vanilla JavaScript application that interacts with the food2fork API to
+                                fetch
+                                and display recipe food data. This app uses modern JavaScript tools, such as Webpack to
+                                bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">Tools Used</h3>
+                        <div class="skills">
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">SASS</div>
+                            <div class="skills__skill">JavaScript</div>
+                            <div class="skills__skill">Responsive Design</div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">See Live</h3>
+                        <div class="skills">
+                            <div class="skills__skill skills__link"><a href="https://forkify-christian.netlify.app/"
+                                    target="_blank">LIVE
+                                    LINK</a></div>
+                            <div class="skills__skill skills__link"><a href="https://github.com/strongcurrentscf/forkify-recipe-app"
+                                    target="_blank">GITHUB</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    </html>

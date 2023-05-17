@@ -1,0 +1,77 @@
+<%- include("includes/head.ejs", { title: "Christian Francis" }) %>
+    <script src="/project.js" defer></script>
+
+    </head>
+
+    <body>
+        <header id="header">
+            <nav id="nav">
+                <!-- <img/> for logo  -->
+                <ul class="links__container">
+                    <li><a class="nav__link" href="/">home</a></li>
+                    <li><a class="nav__link" href="/#about">about</a></li>
+                    <li><a class="nav__link" href="/#projects">projects</a></li>
+                    <li><a class="nav__link" href="/#contact">contact</a></li>
+                </ul>
+            </nav>
+            <!--  -->
+            <div id="neon-name">
+                <div>
+                    <h1 id="project-neon-name-text">r U dUmB?</h1>
+                    <p id="neon-about-text">A popular meme recreated in HTML, CSS, and JavaScript!</p>
+                </div>
+                <svg id="arrows">
+                    <path id="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path id="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path id="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>
+            </div>
+            <!--  -->
+        </header>
+        <main>
+
+            <section class="section" id="about-project">
+                <h2>r U dUmB?</h2>
+                <div class="section-content">
+                    <div class="about">
+                        <figure>
+                            <div id="image">
+                                <img src="/jpg/rudumb-screenshot.png" alt="A photo of Christian Francis" />
+                            </div>
+                            <figcaption id="image-caption">
+                                r U dUmB?
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>
+                                I was browsing and saw a meme that I decided to recreated using HTML, CSS, and JS!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">Tools Used</h3>
+                        <div class="skills">
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">See Live</h3>
+                        <div class="skills">
+                            <div class="skills__skill skills__link">
+                                <a href="https://rudumb.netlify.app/" target="_blank">LIVE LINK</a>
+                            </div>
+                            <div class="skills__skill skills__link">
+                                <a href="https://github.com/strongcurrentscf/RUDUMB-MEME" target="_blank">GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+    </body>
+
+    </html>
