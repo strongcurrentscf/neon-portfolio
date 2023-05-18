@@ -6,7 +6,7 @@ const portfolioRoutes = require("./routes/portfolio");
 
 const app = express();
 
-let port = 4000;
+let port = 80;
 
 if (process.env.PORT) {
     port = process.env.PORT;
