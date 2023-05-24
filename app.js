@@ -6,7 +6,7 @@ const portfolioRoutes = require("./routes/portfolio");
 
 const app = express();
 
-let port = process.env.PORT || 4000;
+let port = 4000;
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
