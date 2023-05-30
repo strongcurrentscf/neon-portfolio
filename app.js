@@ -11,9 +11,9 @@ let port = 4000;
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-app.use(express.static("public"));
-app.use(express.static("img"));
-app.use(express.static("js"));
+app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "img")));
+app.use(express.static(path.join(__dirname, "js")));
 app.use(express.urlencoded({ extended: false }));
 
 app.use(portfolioRoutes);
