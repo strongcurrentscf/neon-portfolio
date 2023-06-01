@@ -44,6 +44,12 @@
 }
 
 .image-caption {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .section-content {
+    margin: 4rem 0 0 0;
+  }
 }

@@ -50,3 +50,20 @@
 .project__btn:hover {
   transform: translateY(-3px);
 }
+
+@media only screen and (max-width: 980px) {
+  .project {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .project__content {
+    margin-bottom: 4rem;
+  }
+
+.project__btn {
+  width: fit-content; 
+}
+
+}
