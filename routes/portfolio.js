@@ -6,6 +6,9 @@ router.get("/", function (req, res) {
   res.render("landing-page");
 });
 
+router.get("/project-lookingforjob", function (req, res) {
+  res.render("project-lookingforjob");
+})
 router.get("/project-forkify", function (req, res) {
   res.render("project-forkify");
 })

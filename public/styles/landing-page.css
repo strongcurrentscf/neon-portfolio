@@ -7,7 +7,9 @@
 #neon-name-text {
   font-size: 3.5rem;
   font-weight: 500;
-  color: white;
+  /* color: white; */
+  color: var(--text-color);
+
   text-align: center;
   letter-spacing: 5px;
   cursor: pointer;
@@ -19,7 +21,9 @@
 #project-neon-name-text {
   font-size: 3.5rem;
   font-weight: 500;
-  color: white;
+  /* color: white; */
+  color: var(--text-color);
+
   text-align: center;
   letter-spacing: 5px;
   cursor: pointer;
@@ -30,11 +34,13 @@
 
 #neon-about-text {
   font-size: 1rem;
-  color: white;
+  /* color: white; */
+  color: var(--text-color);
+
   max-width: 40rem;
   margin: 3rem 1.5rem 0 1.5rem;
   text-align: center;
-  text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+  /* text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4; */
 }
 
 @keyframes flicker {
@@ -50,9 +56,7 @@
   74%,
   76%,
   100% {
-    text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4,
-      0 0 25px #03e9f4, 0 0 35px #03e9f4, 0 0 50px #03e9f4, 0 0 60px #03e9f4,
-      0 0 75px #03e9f4, 0 0 95px #03e9f4, 0 0 100px #03e9f4;
+    /* text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 35px #03e9f4, 0 0 50px #03e9f4, 0 0 60px #03e9f4, 0 0 75px #03e9f4, 0 0 95px #03e9f4, 0 0 100px #03e9f4; */
   }
 
   20%,
@@ -76,14 +80,16 @@
 }
 
 #arrows path {
-  stroke: white;
+  /* stroke: white; */
+  stroke: var(--text-color);
+
   fill: transparent;
   stroke-width: 3.5px;
 
-  filter: drop-shadow(0 0 5px #03e9f4) drop-shadow(0 0 15px #03e9f4)
-    drop-shadow(0 0 20px #03e9f4);
-  -webkit-filter: drop-shadow(0 0 5px #03e9f4) drop-shadow(0 0 15px #03e9f4)
-    drop-shadow(0 0 20px #03e9f4);
+  /* filter: drop-shadow(0 0 5px #03e9f4) drop-shadow(0 0 15px #03e9f4) */
+    /* drop-shadow(0 0 20px #03e9f4); */
+  /* -webkit-filter: drop-shadow(0 0 5px #03e9f4) drop-shadow(0 0 15px #03e9f4) */
+    /* drop-shadow(0 0 20px #03e9f4); */
 
   animation: arrow 6s infinite;
   -webkit-animation: arrow 2s infinite;

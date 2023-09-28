@@ -1,0 +1,83 @@
+<%- include("includes/head.ejs", { title: "Christian Francis" }) %>
+    <script src="/project.js" defer></script>
+
+    </head>
+
+    <body>
+        <header id="header">
+            <nav id="nav">
+                <!-- <img/> for logo  -->
+                <ul class="links__container">
+                    <li><a class="nav__link" href="/">home</a></li>
+                    <li><a class="nav__link" href="/#about">about</a></li>
+                    <li><a class="nav__link" href="/#projects">projects</a></li>
+                    <li><a class="nav__link" href="/#contact">contact</a></li>
+                </ul>
+            </nav>
+            <!--  -->
+            <div id="neon-name">
+                <div>
+                    <h1 id="project-neon-name-text">Looking-For-A-Job</h1>
+                    <p id="neon-about-text">A candidate intake app that collects contact information and a resume file for administrators to login and review.</p>
+                </div>
+                <svg id="arrows">
+                    <path id="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path id="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path id="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>
+            </div>
+            <!--  -->
+        </header>
+        <main>
+
+            <section class="section" id="about-project">
+                <h2>forkify recipe app</h2>
+                <div class="section-content">
+                    <div class="about">
+                        <figure>
+                            <div id="image">
+                                <img src="/jpg/lookingforjob-screenshot.png" alt="A screenshot of the Looking-For-A-Job app" />
+                            </div>
+                            <figcaption id="image-caption">
+                               Looking-For-A-Job Application
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>
+                                A candidate intake app that collects contact information and a resume file for administrators to login and review. It
+                                uses robust form validation on the frontend using express-sessions, bcrypt, and csrf protections. On the backend it is
+                                using NodeJS with Express, MongoDB, and Cloudinary for preserving user files. The app is hosted on Heroku servers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">Tools Used</h3>
+                        <div class="skills">
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">JavaScript</div>
+                            <div class="skills__skill">Express</div>
+                            <div class="skills__skill">NodeJS</div>
+                            <div class="skills__skill">MongoDB</div>
+                            <div class="skills__skill">Cloudinary</div>
+                            <div class="skills__skill">CSRF Protection</div>
+                            <div class="skills__skill">Responsive Design</div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="about-skills__title">See Live</h3>
+                        <div class="skills">
+                            <div class="skills__skill skills__link"><a href="https://looking-for-job-app-7f57c8dc5296.herokuapp.com/"
+                                    target="_blank">LIVE
+                                    LINK</a></div>
+                            <div class="skills__skill skills__link"><a
+                                    href="https://github.com/strongcurrentscf/looking-for-job-intake-app"
+                                    target="_blank">GITHUB</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    </html>

@@ -22,7 +22,7 @@ let lastScroll = 0;
 window.addEventListener("scroll", () => {
   const currentScroll = window.pageYOffset;
 
-  if (currentScroll > lastScroll) {
+  if (currentScroll > lastScroll && lastScroll > 100) {
     // User scrolled down
     hideNavbar();
   } else {

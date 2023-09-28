@@ -6,7 +6,9 @@
 }
 
 .about__projects-section-link {
-  color: #03e9f4;
+  /* color: #03e9f4; */
+  color: var(--text-color);
+
 }
 
 .about-skills {
@@ -14,12 +16,14 @@
 }
 
 .about-skills__title {
-  color: white;
+  /* color: white; */
+  color: var(--text-color);
+
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+  /* text-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4; */
 }
 
 .skills {
@@ -33,16 +37,19 @@
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1.25rem;
-  background-color: rgb(19, 19, 19);
+  /* background-color: rgb(19, 19, 19); */
+  background-color: #ece9e6;
   border-radius: 5px;
   font-weight: 600;
-  color: white;
-  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+  /* color: white; */
+  color: var(--text-color);
+
+  /* box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4; */
 }
 
 .skills__skill:hover {
   transform: scale(1.05);
-  transition: all 0.15s ease-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .skills__link {
@@ -50,7 +57,7 @@
 }
 
 .skills__link:hover {
-  background-color: rgb(19, 19, 19);
+  /* background-color: rgb(19, 19, 19); */
 }
 
 @media only screen and (max-width: 980px) {
