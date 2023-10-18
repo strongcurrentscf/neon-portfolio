@@ -59,11 +59,11 @@
   .project {
     grid-template-columns: 1fr;
     gap: 0;
-    margin-bottom: 0;
+    margin-bottom: 4rem;
   }
 
-  .project__content {
-    margin-bottom: 4rem;
+  .project__content-title {
+  font-size: 1.5rem;
   }
 
 .project__btn {
